@@ -13,6 +13,9 @@
 }
 
 /* common styles */
+.bg-secondary {
+   background-color: #FFF8F3;
+}
 .text-primary {
    color: #FD6E0A;
 }
@@ -33,6 +36,16 @@
    padding: 18px 32px;
    border-radius: 5px;
    border: none;
+}
+.about-title {
+   font-weight: bold;
+   font-size: 35px;
+   color: #181818;
+}
+.about-description {
+   font-weight: 500;
+   font-size: 18px;
+   color: #757575;
 }
 
 /* header */
@@ -91,4 +104,30 @@ nav{
  .banner-img {
    width: 584px;
    margin-right: 35px;
+ }
+
+ /* main */
+ main {
+   max-width: 1140px;
+   margin: 0 auto;
+ }
+
+ /* about styles */
+ .about {
+   border-radius: 10px;
+   padding: 131px 156px;
+   text-align: center;
+   margin: 130px 0;
+ }
+ .about-items {
+   display: flex;
+   justify-content: space-around;
+ }
+ .item-title {
+   font-weight: 500;
+   font-size: 20px;
+ }
+ .item-des {
+   font-weight: bold;
+   font-size: 20px;
  }
